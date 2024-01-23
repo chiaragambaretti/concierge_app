@@ -1,0 +1,52 @@
+.logo-navbar{
+    width: 150px;
+    height: 160px;
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+
+.custom-toggler {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 30px;
+    margin-top: -20px;
+}
+
+.bar {
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: var(--color-blue);
+    margin: 2px 0;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.bar1, .bar3 {
+    width: 70%;
+}
+
+.custom-toggler.open .bar {
+    background-color: var(--color-grey);
+}
+
+.drop-text{
+    font-family: 'EB Garamond', serif;
+    color: var(--color-grey) !important;
+}
+
+
+@media(max-width: 767px){
+    .logo-navbar{
+        width: 90px;
+        height: 100px;
+        margin-top: -10px;
+        padding-bottom: 10px;
+    }
+
+
+}

@@ -1,0 +1,36 @@
+.logo-stresa{
+    width: 200px;
+}
+
+.header-concierge{
+    background: url(./img/concierge3.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-richiestainfo{
+    background: url(./img/logo-stresa2.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+.header-category{
+    height: 70vh;
+}
+
+/* smartphone */
+@media(max-width: 767px){
+   .header-concierge{
+        height: 25vh;
+        background-size: cover;
+   }
+
+   .header-category{
+        height: 25vh;
+   }
+
+}
+
